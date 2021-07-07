@@ -1,0 +1,19 @@
+{
+    "name": "htmllc/plugin-kirki",
+    "repositories": [{
+        "type": "composer",
+        "url": "http://packages/"
+    }],
+    "provide": {
+        "htmllc/plugin-kirki": "1.0.6"
+    },
+    "version": "1.0.6",
+    "description": "plugin-kirki",
+    "type": "wordpress-plugin",
+    "require": {
+        "composer/installers": "~1.0"
+    },
+    "extra": {
+        "installer-name": "kirki"
+    }
+}
